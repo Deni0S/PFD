@@ -45,11 +45,19 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "03C134BE2309CFC4007A0911"
+            BuildableName = "PFD.app"
+            ReferencedContainer = "container:PFD.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "03C134BE2309CFC4007A0911"
             BuildableName = "Aviation.app"
             BlueprintName = "Aviation"
             ReferencedContainer = "container:Aviation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -67,6 +75,15 @@
             ReferencedContainer = "container:Aviation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "03C134BE2309CFC4007A0911"
+            BuildableName = "Aviation.app"
+            BlueprintName = "Aviation"
+            ReferencedContainer = "container:Aviation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

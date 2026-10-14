@@ -24,7 +24,7 @@
 		0366BF5430795D1400108046 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		0366BF5530795D1400108046 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0366BF5630795D1400108046 /* README.RU.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.RU.md; sourceTree = SOURCE_ROOT; };
-		03C134BF2309CFC4007A0911 /* Aviation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C134BF2309CFC4007A0911 /* PFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C134C22309CFC4007A0911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C134C42309CFC4007A0911 /* PFDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		03C134C72309CFC4007A0911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		03C134B62309CFC4007A0911 = {
 			isa = PBXGroup;
 			children = (
-				03C134C12309CFC4007A0911 /* Aviation */,
+				03C134C12309CFC4007A0911 /* PFD */,
 				03C134C02309CFC4007A0911 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,27 +79,27 @@
 		03C134C02309CFC4007A0911 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03C134BF2309CFC4007A0911 /* Aviation.app */,
+				03C134BF2309CFC4007A0911 /* PFD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03C134C12309CFC4007A0911 /* Aviation */ = {
+		03C134C12309CFC4007A0911 /* PFD */ = {
 			isa = PBXGroup;
 			children = (
 				034A186C2D8CB15A00B6420A /* App */,
 				034A186B2D8CB0C800B6420A /* Resources */,
 				03C134C42309CFC4007A0911 /* PFDViewController.swift */,
 			);
-			path = Aviation;
+			path = PFD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03C134BE2309CFC4007A0911 /* Aviation */ = {
+		03C134BE2309CFC4007A0911 /* PFD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03C134E72309CFC6007A0911 /* Build configuration list for PBXNativeTarget "Aviation" */;
+			buildConfigurationList = 03C134E72309CFC6007A0911 /* Build configuration list for PBXNativeTarget "PFD" */;
 			buildPhases = (
 				03C134BB2309CFC4007A0911 /* Sources */,
 				03C134BC2309CFC4007A0911 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = Aviation;
+			name = PFD;
 			productName = Aviation;
-			productReference = 03C134BF2309CFC4007A0911 /* Aviation.app */;
+			productReference = 03C134BF2309CFC4007A0911 /* PFD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03C134BA2309CFC4007A0911 /* Build configuration list for PBXProject "Aviation" */;
+			buildConfigurationList = 03C134BA2309CFC4007A0911 /* Build configuration list for PBXProject "PFD" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03C134BE2309CFC4007A0911 /* Aviation */,
+				03C134BE2309CFC4007A0911 /* PFD */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 				CODE_SIGN_ENTITLEMENTS = Aviation/Resources/Aviation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
-				INFOPLIST_FILE = Aviation/Resources/Info.plist;
+				INFOPLIST_FILE = PFD/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,7 +347,7 @@
 				CODE_SIGN_ENTITLEMENTS = Aviation/Resources/Aviation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
-				INFOPLIST_FILE = Aviation/Resources/Info.plist;
+				INFOPLIST_FILE = PFD/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -364,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03C134BA2309CFC4007A0911 /* Build configuration list for PBXProject "Aviation" */ = {
+		03C134BA2309CFC4007A0911 /* Build configuration list for PBXProject "PFD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C134E52309CFC6007A0911 /* Debug */,
@@ -373,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03C134E72309CFC6007A0911 /* Build configuration list for PBXNativeTarget "Aviation" */ = {
+		03C134E72309CFC6007A0911 /* Build configuration list for PBXNativeTarget "PFD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03C134E82309CFC6007A0911 /* Debug */,

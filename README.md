@@ -1,4 +1,4 @@
-# Attitude Indicator Module / PFD
+# Primary Flight Display
 [![Status](https://img.shields.io/badge/status-deprecated-red)](#)
 [![Purpose](https://img.shields.io/badge/purpose-educational%20%2F%20history-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
