@@ -12,7 +12,7 @@
 		0366BF5730795D1400108046 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0366BF5530795D1400108046 /* README.md */; };
 		0366BF5830795D1400108046 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0366BF5430795D1400108046 /* LICENSE */; };
 		0366BF5930795D1400108046 /* README.RU.md in Resources */ = {isa = PBXBuildFile; fileRef = 0366BF5630795D1400108046 /* README.RU.md */; };
-		03C134C32309CFC4007A0911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C134C22309CFC4007A0911 /* AppDelegate.swift */; };
+		03C134C32309CFC4007A0911 /* PFDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C134C22309CFC4007A0911 /* PFDApp.swift */; };
 		03C134C52309CFC4007A0911 /* PFDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C134C42309CFC4007A0911 /* PFDViewController.swift */; };
 		03C134C82309CFC4007A0911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C134C62309CFC4007A0911 /* Main.storyboard */; };
 		03C134CD2309CFC6007A0911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C134CB2309CFC6007A0911 /* LaunchScreen.storyboard */; };
@@ -24,13 +24,13 @@
 		0366BF5430795D1400108046 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		0366BF5530795D1400108046 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0366BF5630795D1400108046 /* README.RU.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.RU.md; sourceTree = SOURCE_ROOT; };
+		03998AA53083DCAF00241F5E /* PFD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PFD.entitlements; sourceTree = "<group>"; };
 		03C134BF2309CFC4007A0911 /* PFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03C134C22309CFC4007A0911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C134C22309CFC4007A0911 /* PFDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDApp.swift; sourceTree = "<group>"; };
 		03C134C42309CFC4007A0911 /* PFDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		03C134C72309CFC4007A0911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C134CC2309CFC6007A0911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C134CE2309CFC6007A0911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		776E8A9224D0ADEF009948E7 /* Aviation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aviation.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 				0366BF5630795D1400108046 /* README.RU.md */,
 				03C134C62309CFC4007A0911 /* Main.storyboard */,
 				03C134CB2309CFC6007A0911 /* LaunchScreen.storyboard */,
+				03998AA53083DCAF00241F5E /* PFD.entitlements */,
 				032D3476234374A0001F862D /* Assets.xcassets */,
 				03C134CE2309CFC6007A0911 /* Info.plist */,
-				776E8A9224D0ADEF009948E7 /* Aviation.entitlements */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 		034A186C2D8CB15A00B6420A /* App */ = {
 			isa = PBXGroup;
 			children = (
-				03C134C22309CFC4007A0911 /* AppDelegate.swift */,
+				03C134C22309CFC4007A0911 /* PFDApp.swift */,
 				0343B0A423140E9200470174 /* UIView+Layer.swift */,
 			);
 			path = App;
@@ -171,7 +171,7 @@
 			files = (
 				03C134C52309CFC4007A0911 /* PFDViewController.swift in Sources */,
 				0343B0A523140E9200470174 /* UIView+Layer.swift in Sources */,
-				03C134C32309CFC4007A0911 /* AppDelegate.swift in Sources */,
+				03C134C32309CFC4007A0911 /* PFDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,10 +323,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Aviation/Resources/Aviation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PFD/Resources/PFD.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
 				INFOPLIST_FILE = PFD/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PFD;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,9 +335,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BDI.Aviation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -344,10 +348,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Aviation/Resources/Aviation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PFD/Resources/PFD.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ69ZFHT28;
 				INFOPLIST_FILE = PFD/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PFD;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,9 +360,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BDI.Aviation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
