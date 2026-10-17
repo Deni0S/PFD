@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		032D3477234374A0001F862D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032D3476234374A0001F862D /* Assets.xcassets */; };
-		0343B0A523140E9200470174 /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0343B0A423140E9200470174 /* UIView+Layer.swift */; };
 		0366BF5730795D1400108046 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0366BF5530795D1400108046 /* README.md */; };
 		0366BF5830795D1400108046 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0366BF5430795D1400108046 /* LICENSE */; };
 		0366BF5930795D1400108046 /* README.RU.md in Resources */ = {isa = PBXBuildFile; fileRef = 0366BF5630795D1400108046 /* README.RU.md */; };
+		03998AA73083F28200241F5E /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03998AA63083F28100241F5E /* FlightData.swift */; };
+		03998AA93083F2AB00241F5E /* PFDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03998AA83083F2A900241F5E /* PFDView.swift */; };
+		03998AAB3083F64C00241F5E /* PFD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03998AAA3083F64B00241F5E /* PFD.swift */; };
 		03C134C32309CFC4007A0911 /* PFDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C134C22309CFC4007A0911 /* PFDApp.swift */; };
-		03C134C52309CFC4007A0911 /* PFDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C134C42309CFC4007A0911 /* PFDViewController.swift */; };
-		03C134C82309CFC4007A0911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C134C62309CFC4007A0911 /* Main.storyboard */; };
 		03C134CD2309CFC6007A0911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C134CB2309CFC6007A0911 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		032D3476234374A0001F862D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0343B0A423140E9200470174 /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
 		0366BF5430795D1400108046 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		0366BF5530795D1400108046 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0366BF5630795D1400108046 /* README.RU.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.RU.md; sourceTree = SOURCE_ROOT; };
 		03998AA53083DCAF00241F5E /* PFD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PFD.entitlements; sourceTree = "<group>"; };
+		03998AA63083F28100241F5E /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		03998AA83083F2A900241F5E /* PFDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDView.swift; sourceTree = "<group>"; };
+		03998AAA3083F64B00241F5E /* PFD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFD.swift; sourceTree = "<group>"; };
 		03C134BF2309CFC4007A0911 /* PFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C134C22309CFC4007A0911 /* PFDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDApp.swift; sourceTree = "<group>"; };
-		03C134C42309CFC4007A0911 /* PFDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
-		03C134C72309CFC4007A0911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C134CC2309CFC6007A0911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C134CE2309CFC6007A0911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,7 +50,6 @@
 				0366BF5430795D1400108046 /* LICENSE */,
 				0366BF5530795D1400108046 /* README.md */,
 				0366BF5630795D1400108046 /* README.RU.md */,
-				03C134C62309CFC4007A0911 /* Main.storyboard */,
 				03C134CB2309CFC6007A0911 /* LaunchScreen.storyboard */,
 				03998AA53083DCAF00241F5E /* PFD.entitlements */,
 				032D3476234374A0001F862D /* Assets.xcassets */,
@@ -62,8 +61,10 @@
 		034A186C2D8CB15A00B6420A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				03998AAA3083F64B00241F5E /* PFD.swift */,
+				03998AA83083F2A900241F5E /* PFDView.swift */,
+				03998AA63083F28100241F5E /* FlightData.swift */,
 				03C134C22309CFC4007A0911 /* PFDApp.swift */,
-				0343B0A423140E9200470174 /* UIView+Layer.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -89,7 +90,6 @@
 			children = (
 				034A186C2D8CB15A00B6420A /* App */,
 				034A186B2D8CB0C800B6420A /* Resources */,
-				03C134C42309CFC4007A0911 /* PFDViewController.swift */,
 			);
 			path = PFD;
 			sourceTree = "<group>";
@@ -158,7 +158,6 @@
 				0366BF5730795D1400108046 /* README.md in Resources */,
 				0366BF5830795D1400108046 /* LICENSE in Resources */,
 				0366BF5930795D1400108046 /* README.RU.md in Resources */,
-				03C134C82309CFC4007A0911 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,23 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C134C52309CFC4007A0911 /* PFDViewController.swift in Sources */,
-				0343B0A523140E9200470174 /* UIView+Layer.swift in Sources */,
 				03C134C32309CFC4007A0911 /* PFDApp.swift in Sources */,
+				03998AA93083F2AB00241F5E /* PFDView.swift in Sources */,
+				03998AAB3083F64C00241F5E /* PFD.swift in Sources */,
+				03998AA73083F28200241F5E /* FlightData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03C134C62309CFC4007A0911 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03C134C72309CFC4007A0911 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03C134CB2309CFC6007A0911 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
